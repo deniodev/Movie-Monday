@@ -12,7 +12,9 @@ body {
 .logo {
   color: #fff;
   font-family: 'Inter', sans-serif;
-  margin-left: 62px;
+  font-style: italic;
+  font-size: 35px;
+  margin-left: 80px;
 }
 
 header {
@@ -246,4 +248,18 @@ textarea {
   font-size: 15px;
   border: 2px solid hsl(240, 25%, 15%);
   background-color: hsl(230, 25%, 15%);
+}
+
+@media screen and (max-width: 513px) {
+  #count {
+    display: none;
+  }
+
+ a {
+  display: none;
+ }
+
+ body {
+  width: 95%;
+ }
 }
