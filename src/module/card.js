@@ -15,9 +15,9 @@ const card = (movies, data) => {
           <span class="details">${movie.name}</span>
           <div class="likes">
           <i class="bx bx-heart" data-id="${index}"></i> 
+          <span> ${msgLikes} </span> 
           </div>         
         </div>
-        <div class="span"> <span> ${msgLikes}  Likes</span> </div>
         <button id="comments" data-id="${index}">Comments</button>
         `;
     card.innerHTML += displayCard;

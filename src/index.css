@@ -1,21 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
-* {
-  color: red;
-  margin: 0.1em;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
-  background: black;
-  text-decoration-line: none;
-}
-
 body {
   text-decoration: none;
-  font-size: 35px;
+  background-color: black;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .logo {
-  font-family: "Lucida Handwriting", sans-serif;
+  background-color: red;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  margin-left: 10px;
 }
 
 header {
@@ -23,26 +21,44 @@ header {
   flex-direction: row;
   justify-content: space-between;
   gap: 3.5rem;
-  height: 5rem;
+  height: 4rem;
+  width: 100%;
   font-weight: 700;
   align-items: center;
-  padding: 10px 15px;
   letter-spacing: 0.01em;
+  background-color: red;
+  color: #fff;
+}
+
+header ul {
+  background-color: red;
 }
 
 header div i {
-  font-size: 36px;
+  font-size: 15px;
+  background-color: red;
+}
+
+ul {
+ background-color: red;
+ color: #fff;
 }
 
 li {
   list-style: none;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 header li {
   display: flex;
   gap: 55px;
+}
+
+a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 footer {
@@ -59,8 +75,7 @@ footer {
 .card-container {
   display: flex;
   width: 100%;
-  padding: 0 1em;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -69,14 +84,16 @@ footer {
   max-width: 350px;
   padding: 0.5em 0.5em;
   margin: 1rem;
-  border-radius: 8px;
+  border-radius: 50px;
+  color: #fff;
 }
 
 .card-img {
   width: 300px;
   height: 300px;
   background: white;
-  border: 1px solid red;
+  border: 3px solid white;
+  border-radius: 5%;
 }
 
 .description {
@@ -88,20 +105,17 @@ footer {
 .details {
   width: 70%;
   font-size: 1.3rem;
+  padding-top: 10px;
 }
 
 .likes {
   color: rgb(224, 221, 221);
-  align-items: flex-end;
-  flex-direction: column;
-  font-size: 0.8em;
-  width: 12%;
+  font-size: 1.3em;
+  margin-right: 43px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.span {
-  font-size: 0.5em;
-  margin-left: 78%;
-}
 
 button {
   cursor: pointer;
@@ -110,7 +124,7 @@ button {
   padding: 0.8em 1.5em;
   border: none;
   font-family: inherit;
-  width: 100%;
+  width: 88%;
   border-radius: 13px;
 }
 
@@ -122,10 +136,9 @@ button {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(58, 47, 66, 0.11);
   padding: 1em;
   transition: all 0.5s ease-in-out;
-}
+ }
 
 .modal.hidden {
   display: none;
@@ -174,7 +187,7 @@ button {
   right: 3%;
   color: white;
   color: var(--blend-color);
-  font-size: 1.5rem;
+  font-size: 5rem;
   cursor: pointer;
 }
 
@@ -228,5 +241,6 @@ textarea {
 }
 
 #count {
-  margin-left: -55px;
+  margin-left: -45px;
+  margin-right: 3px;
 }

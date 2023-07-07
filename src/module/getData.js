@@ -6,7 +6,7 @@ import { itemCount } from './itemCounter.js';
 const shows = async () => {
   const response = await fetch(cardapi);
   const data = await response.json();
-  const result = data.slice(40, 60);
+  const result = data;
   itemCount(result.length);
   const likes = await fetch(likeurl);
   const res = await likes.json();
