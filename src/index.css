@@ -58,7 +58,7 @@ a {
 }
 
 footer {
-  border: 3px solid red;
+  border: 3px solid hsl(220, 25%, 15%);
   text-align: center;
   width: 95%;
   bottom: 0;
@@ -117,7 +117,8 @@ footer {
 
 button {
   cursor: pointer;
-  background-color: red;
+  border: 2px solid hsl(230, 25%, 15%);
+  background-color: hsl(220, 25%, 15%);
   color: #fff;
   padding: 0.8em 1.5em;
   border: none;
@@ -154,6 +155,7 @@ button {
   flex-direction: column;
   text-align: center;
   margin-left: 13%;
+  background-color: hsl(207, 26%, 17%);
 }
 
 .content.active {
@@ -165,17 +167,19 @@ button {
   width: 33%;
   height: 300px;
   align-items: center;
-  border: 1px solid;
+  border: 1px solid hsl(207, 26%, 17%);
+  border-radius: 5%;
 }
 
 .modal-details {
+  font-size: 2rem;
+  font-weight: 500;
   flex-direction: column;
   align-items: center;
 }
 
 .modal-details p {
-  font-size: 0.75rem;
-  line-height: 1.7;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -200,12 +204,14 @@ button {
 
 .comment-msg {
   width: 60%;
-  color: wheat;
+  color: black;
+  font-size: 14px;
   text-align: left;
   padding-left: 4%;
 }
 
 .comment-date {
+  font-size: 14px;
   color: rgb(69, 121, 101);
 }
 
@@ -233,8 +239,8 @@ textarea {
 
 .heading {
   text-align: center;
-  font-weight: 300;
-  font-size: 1.4rem;
+  font-weight: 600;
+  font-size: 1.8rem;
   margin: 0.7rem 0;
 }
 
@@ -267,4 +273,22 @@ textarea {
   margin-left: 8px;
 }
 
+.modal {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  transition: all 0.5s ease-in-out;
+ }
+
+.modal-img {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  border: 1px solid hsl(207, 26%, 17%);
+  border-radius: 5%;
+}
+
+.bx-x {
+  font-size: 2rem;
+ }
 }
