@@ -164,8 +164,8 @@ button {
 }
 
 .modal-img {
-  width: 33%;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   align-items: center;
   border: 1px solid hsl(207, 26%, 17%);
   border-radius: 5%;
@@ -189,7 +189,7 @@ button {
   right: 3%;
   color: white;
   color: var(--blend-color);
-  font-size: 5rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
