@@ -1,3 +1,6 @@
+
+![jobit](https://github.com/deniodev/ShowScene/assets/92977776/15736fc0-64a4-4ba4-9b70-697239848900)
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -18,9 +21,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Movie Monday] <a name="about-project"></a>
+# 📖 ShowScene <a name="about-project"></a>
 
-**Movie Monday** is a project that we are applying our knowledge on HTML and CSS and JavaScript to fetch movies from TVMAZE API, and allow users to post comments, likes, read summaries of movies that they choose to and update our base API with their comments and likes.
+**ShowScene** is a project that we are applying our knowledge on HTML and CSS and JavaScript to fetch movies from TVMAZE API, and allow users to post comments, likes, read summaries of movies that they choose to and update our base API with their comments and likes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,7 +62,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="https://shihabrafio.github.io/Movie-Monday/">Check out the live demo</a>
+- <a href="https://deniodev.github.io/ShowScene/docs/">Check out the live demo</a>
 
 ## 🚀 Presentation <a name="presentation"></a>
 
