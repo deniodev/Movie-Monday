@@ -181,14 +181,14 @@ button {
 .modal-details p {
   font-size: 1rem;
   text-align: center;
+  color: #fff;
 }
 
 .bx-x {
   position: absolute;
   top: 2%;
   right: 3%;
-  color: white;
-  color: var(--blend-color);
+  color: #fff;
   font-size: 2rem;
   cursor: pointer;
 }
@@ -204,15 +204,16 @@ button {
 
 .comment-msg {
   width: 60%;
-  color: black;
   font-size: 14px;
   text-align: left;
   padding-left: 4%;
+  color: #fff;
 }
 
 .comment-date {
   font-size: 14px;
-  color: rgb(69, 121, 101);
+  font-weight: bold;
+  color: #fff
 }
 
 form {
@@ -242,7 +243,9 @@ textarea {
   font-weight: 600;
   font-size: 1.8rem;
   margin: 0.7rem 0;
+  color: #fff;
 }
+
 
 #count {
   margin-left: -45px;
